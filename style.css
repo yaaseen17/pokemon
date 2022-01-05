@@ -1,0 +1,49 @@
+#image {
+  width: 400px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card {
+  margin: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+p {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-image: url(./forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: rgb(228, 29, 29);
+  font-size: 10px;
+  font-weight: 900;
+  border: grey;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.poki {
+  margin: 20px;
+}
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
